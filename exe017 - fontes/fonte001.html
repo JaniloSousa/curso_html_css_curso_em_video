@@ -6,12 +6,22 @@
     <title>Fontes em CSS</title>
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif; /* SAFA FONT COMBINATIONS */
+            /* primeiro as css irá tentar carregar a font Arial, se não der, a fonte Helvetica, se não der ela irá carregar a fonte padrão sans-serif do dispositivo */
+
             font-size: 2em; /* igual a 32px */
         }
 
         h1 {
             font-family: 'Times New Roman', Times, serif;
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font */
+            /* font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
         }
 
         /* o h2 irá recerber a fonte do body por herança */
