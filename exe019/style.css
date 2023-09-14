@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+SELETORES EM CSS:
+    Id -> # (é recomendado ter apenas um único id por documento HTML)
+    Classe -> . (pode vários elementos)
+*/
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1e402f;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+
+h2 {
+    color: #3c805e;
+}
+
+h2.basico {
+    color: #3c805e;
+}
+
+h2.intermediario {
+    color: #80793c;
+}
+
+h2.avancado {
+    color: #803c3c;
+}
+
+.destaque {
+    background-color: #c5c56070;
+}
