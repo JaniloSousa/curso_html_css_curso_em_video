@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -29,6 +30,21 @@
         thead, tfoot {
             background-color: rgb(68, 68, 68);
             color: white;
+        }
+
+        /* para deixar o cabeçalho da tabela fixo em relação ao scroll do mouse */
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(68, 68, 68);
+        }
+
+        /*
+            impar - (2n - 1) ou odd
+            par - (2n) ou even
+        */
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
         .num {
@@ -51,7 +67,9 @@
     -->
 
     <table>
+        <!-- 'caption' é o título da tabela, uma explicação -->
         <caption>População Das Unidades Federativas Do Brasil</caption>
+
         <thead>
             <tr>
                 <th scope="col">Estado</th>
@@ -72,6 +90,146 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17.264.943</td>
             </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
         </tbody>
 
         <tfoot>
@@ -83,5 +241,14 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi debitis voluptate eum dolor quis magnam nihil vitae quo deleniti hic iure placeat voluptas veritatis ad natus, tempora consectetur nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ex omnis temporibus ea delectus, quo in repellat cupiditate eligendi necessitatibus numquam exercitationem labore, fugiat et quaerat possimus! Quam, asperiores qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet fugit adipisci delectus odio obcaecati ad est molestiae blanditiis, alias laborum ea ratione, quas atque officiis autem ex magnam eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis dolore, officiis, autem adipisci corrupti magni cum vero nulla vitae quod molestias aspernatur doloribus! Et soluta fugiat odit facilis culpa?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi debitis voluptate eum dolor quis magnam nihil vitae quo deleniti hic iure placeat voluptas veritatis ad natus, tempora consectetur nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ex omnis temporibus ea delectus, quo in repellat cupiditate eligendi necessitatibus numquam exercitationem labore, fugiat et quaerat possimus! Quam, asperiores qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet fugit adipisci delectus odio obcaecati ad est molestiae blanditiis, alias laborum ea ratione, quas atque officiis autem ex magnam eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis dolore, officiis, autem adipisci corrupti magni cum vero nulla vitae quod molestias aspernatur doloribus! Et soluta fugiat odit facilis culpa?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi debitis voluptate eum dolor quis magnam nihil vitae quo deleniti hic iure placeat voluptas veritatis ad natus, tempora consectetur nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ex omnis temporibus ea delectus, quo in repellat cupiditate eligendi necessitatibus numquam exercitationem labore, fugiat et quaerat possimus! Quam, asperiores qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet fugit adipisci delectus odio obcaecati ad est molestiae blanditiis, alias laborum ea ratione, quas atque officiis autem ex magnam eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis dolore, officiis, autem adipisci corrupti magni cum vero nulla vitae quod molestias aspernatur doloribus! Et soluta fugiat odit facilis culpa?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi debitis voluptate eum dolor quis magnam nihil vitae quo deleniti hic iure placeat voluptas veritatis ad natus, tempora consectetur nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ex omnis temporibus ea delectus, quo in repellat cupiditate eligendi necessitatibus numquam exercitationem labore, fugiat et quaerat possimus! Quam, asperiores qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet fugit adipisci delectus odio obcaecati ad est molestiae blanditiis, alias laborum ea ratione, quas atque officiis autem ex magnam eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis dolore, officiis, autem adipisci corrupti magni cum vero nulla vitae quod molestias aspernatur doloribus! Et soluta fugiat odit facilis culpa?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi debitis voluptate eum dolor quis magnam nihil vitae quo deleniti hic iure placeat voluptas veritatis ad natus, tempora consectetur nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ex omnis temporibus ea delectus, quo in repellat cupiditate eligendi necessitatibus numquam exercitationem labore, fugiat et quaerat possimus! Quam, asperiores qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet fugit adipisci delectus odio obcaecati ad est molestiae blanditiis, alias laborum ea ratione, quas atque officiis autem ex magnam eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis dolore, officiis, autem adipisci corrupti magni cum vero nulla vitae quod molestias aspernatur doloribus! Et soluta fugiat odit facilis culpa?</p>
 </body>
 </html>
